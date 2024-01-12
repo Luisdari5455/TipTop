@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/TipTop/static/css/main.7d59e664.css",
+    "main.js": "/TipTop/static/js/main.f1a9a5f9.js",
+    "static/js/573.a4a2c159.chunk.js": "/TipTop/static/js/573.a4a2c159.chunk.js",
+    "static/js/730.1c6db423.chunk.js": "/TipTop/static/js/730.1c6db423.chunk.js",
+    "static/js/986.0c631cce.chunk.js": "/TipTop/static/js/986.0c631cce.chunk.js",
+    "static/media/Video.mp4": "/TipTop/static/media/Video.f4527049493e23b08d26.mp4",
+    "static/media/10.mp4": "/TipTop/static/media/10.fd8906ac5830167b6a17.mp4",
+    "static/media/tiptop.png": "/TipTop/static/media/tiptop.754f43d91810ca1aa422.png",
+    "static/media/14.webp": "/TipTop/static/media/14.353d062ffd6151d94a06.webp",
+    "static/media/5.jpeg": "/TipTop/static/media/5.00061ac68d154d690b1e.jpeg",
+    "static/media/3.jpeg": "/TipTop/static/media/3.1f6aadcc6f27d43e7298.jpeg",
+    "static/media/8.jpeg": "/TipTop/static/media/8.d2f9d5d84a4e59244273.jpeg",
+    "static/media/9.jpeg": "/TipTop/static/media/9.2171e51e983139a3400c.jpeg",
+    "static/media/7.jpeg": "/TipTop/static/media/7.199bed6de935880f3983.jpeg",
+    "static/media/letrero.jpg": "/TipTop/static/media/letrero.20fb248abe4a7ca1033a.jpg",
+    "static/media/habitaciones.jpg": "/TipTop/static/media/habitaciones.7d68aca7f98441c2d45d.jpg",
+    "static/media/3.webp": "/TipTop/static/media/3.72b96ccc924a0b0d614d.webp",
+    "static/media/adorno.jpg": "/TipTop/static/media/adorno.6412c7e7d80ab58a9b24.jpg",
+    "static/media/5about.jpeg": "/TipTop/static/media/5about.3163f208fb844af4e6de.jpeg",
+    "static/media/6about.jpeg": "/TipTop/static/media/6about.d2e95e65be2252a45810.jpeg",
+    "static/media/manteleria.jpg": "/TipTop/static/media/manteleria.05b13956f6869cd0fe8a.jpg",
+    "static/media/exteri.jpg": "/TipTop/static/media/exteri.bfdbd53e2558fbfb34de.jpg",
+    "static/media/decora.jpg": "/TipTop/static/media/decora.8bb7ab989a1746a2fb54.jpg",
+    "static/media/1about.jpeg": "/TipTop/static/media/1about.3e5fe4d2c3fb36bb3519.jpeg",
+    "static/media/kaushan-script-all-400-normal.woff": "/TipTop/static/media/kaushan-script-all-400-normal.ba623d1ca520a2a711d2.woff",
+    "static/media/sirin-stencil-all-400-normal.woff": "/TipTop/static/media/sirin-stencil-all-400-normal.e1b8add18154b5d65682.woff",
+    "static/media/kaushan-script-latin-400-normal.woff2": "/TipTop/static/media/kaushan-script-latin-400-normal.2855d49bba6b2cb7bec5.woff2",
+    "static/media/sirin-stencil-latin-400-normal.woff2": "/TipTop/static/media/sirin-stencil-latin-400-normal.f668f96beabdc683277b.woff2",
+    "static/media/kaushan-script-latin-ext-400-normal.woff2": "/TipTop/static/media/kaushan-script-latin-ext-400-normal.5a05e21384fe4b1b9db7.woff2",
+    "index.html": "/TipTop/index.html",
+    "main.7d59e664.css.map": "/TipTop/static/css/main.7d59e664.css.map",
+    "main.f1a9a5f9.js.map": "/TipTop/static/js/main.f1a9a5f9.js.map",
+    "573.a4a2c159.chunk.js.map": "/TipTop/static/js/573.a4a2c159.chunk.js.map",
+    "730.1c6db423.chunk.js.map": "/TipTop/static/js/730.1c6db423.chunk.js.map",
+    "986.0c631cce.chunk.js.map": "/TipTop/static/js/986.0c631cce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d59e664.css",
+    "static/js/main.f1a9a5f9.js"
+  ]
+}
