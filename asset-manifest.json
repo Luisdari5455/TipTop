@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/TipTop/static/css/main.7d59e664.css",
-    "main.js": "/TipTop/static/js/main.f1a9a5f9.js",
+    "main.css": "/TipTop/static/css/main.264a0894.css",
+    "main.js": "/TipTop/static/js/main.376538e8.js",
     "static/js/573.a4a2c159.chunk.js": "/TipTop/static/js/573.a4a2c159.chunk.js",
-    "static/js/730.1c6db423.chunk.js": "/TipTop/static/js/730.1c6db423.chunk.js",
+    "static/js/730.8087149d.chunk.js": "/TipTop/static/js/730.8087149d.chunk.js",
     "static/js/986.0c631cce.chunk.js": "/TipTop/static/js/986.0c631cce.chunk.js",
     "static/media/Video.mp4": "/TipTop/static/media/Video.f4527049493e23b08d26.mp4",
+    "static/media/vid2.mp4": "/TipTop/static/media/vid2.01ebbbbf3304949a8756.mp4",
+    "static/media/vid3.mp4": "/TipTop/static/media/vid3.e1936342d48eccc3dd21.mp4",
+    "static/media/vidd2.mp4": "/TipTop/static/media/vidd2.24c2881238f30b46d095.mp4",
     "static/media/10.mp4": "/TipTop/static/media/10.fd8906ac5830167b6a17.mp4",
+    "static/media/vid1.mp4": "/TipTop/static/media/vid1.256e4dc4e2c1c0e934de.mp4",
+    "static/media/1.jpeg": "/TipTop/static/media/1.ef5440d5e3e992942f9f.jpeg",
     "static/media/tiptop.png": "/TipTop/static/media/tiptop.754f43d91810ca1aa422.png",
-    "static/media/14.webp": "/TipTop/static/media/14.353d062ffd6151d94a06.webp",
     "static/media/5.jpeg": "/TipTop/static/media/5.00061ac68d154d690b1e.jpeg",
     "static/media/3.jpeg": "/TipTop/static/media/3.1f6aadcc6f27d43e7298.jpeg",
     "static/media/8.jpeg": "/TipTop/static/media/8.d2f9d5d84a4e59244273.jpeg",
-    "static/media/9.jpeg": "/TipTop/static/media/9.2171e51e983139a3400c.jpeg",
     "static/media/7.jpeg": "/TipTop/static/media/7.199bed6de935880f3983.jpeg",
+    "static/media/2.jpeg": "/TipTop/static/media/2.7d6745bbc5db5ad80815.jpeg",
     "static/media/letrero.jpg": "/TipTop/static/media/letrero.20fb248abe4a7ca1033a.jpg",
+    "static/media/6.jpeg": "/TipTop/static/media/6.fa35870414adb20bad98.jpeg",
     "static/media/habitaciones.jpg": "/TipTop/static/media/habitaciones.7d68aca7f98441c2d45d.jpg",
     "static/media/3.webp": "/TipTop/static/media/3.72b96ccc924a0b0d614d.webp",
     "static/media/adorno.jpg": "/TipTop/static/media/adorno.6412c7e7d80ab58a9b24.jpg",
@@ -30,14 +35,14 @@
     "static/media/sirin-stencil-latin-400-normal.woff2": "/TipTop/static/media/sirin-stencil-latin-400-normal.f668f96beabdc683277b.woff2",
     "static/media/kaushan-script-latin-ext-400-normal.woff2": "/TipTop/static/media/kaushan-script-latin-ext-400-normal.5a05e21384fe4b1b9db7.woff2",
     "index.html": "/TipTop/index.html",
-    "main.7d59e664.css.map": "/TipTop/static/css/main.7d59e664.css.map",
-    "main.f1a9a5f9.js.map": "/TipTop/static/js/main.f1a9a5f9.js.map",
+    "main.264a0894.css.map": "/TipTop/static/css/main.264a0894.css.map",
+    "main.376538e8.js.map": "/TipTop/static/js/main.376538e8.js.map",
     "573.a4a2c159.chunk.js.map": "/TipTop/static/js/573.a4a2c159.chunk.js.map",
-    "730.1c6db423.chunk.js.map": "/TipTop/static/js/730.1c6db423.chunk.js.map",
+    "730.8087149d.chunk.js.map": "/TipTop/static/js/730.8087149d.chunk.js.map",
     "986.0c631cce.chunk.js.map": "/TipTop/static/js/986.0c631cce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d59e664.css",
-    "static/js/main.f1a9a5f9.js"
+    "static/css/main.264a0894.css",
+    "static/js/main.376538e8.js"
   ]
 }
