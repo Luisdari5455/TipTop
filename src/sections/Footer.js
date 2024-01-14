@@ -266,7 +266,7 @@ const Footer = () => {
   return (
     <Section>
       <LogoContainer>
-        <img data-scroll data-scroll-speed="2" src={Logo} alt="Wibe Studio" />
+        <img data-scroll data-scroll-speed="2" src={Logo} alt="Tip Top Decorations"  onClick={() => handleScroll("#home")}/>
         {/* <h3 data-scroll data-scroll-speed="-1">
          TipTop
         </h3> */}
@@ -283,8 +283,8 @@ const Footer = () => {
           <li onClick={() => handleScroll("#home")}>home</li>
           <li onClick={() => handleScroll(".about")}>about</li>
           <li onClick={() => handleScroll("#shop")}>Our Services</li>
-          <li onClick={() => handleScroll("#new-arrival")}>new arrival</li>
-          <li>
+          <li onClick={() => handleScroll("#new-arrival")}>Gallery</li>
+          {/* <li>
             <a href="https://google.com" target="_blank" rel="noreferrer">
               look book
             </a>
@@ -293,7 +293,7 @@ const Footer = () => {
             <a href="https://google.com" target="_blank" rel="noreferrer">
               reviews
             </a>
-          </li>
+          </li> */}
         </ul>
         <Bottom>
           <span
@@ -311,7 +311,7 @@ const Footer = () => {
 
 
   
-          <a href="https://www.instagram.com/tiptopdecorations18/?igshid=NDk5N2NlZjQ%3D" className="social-icon social-icon--instagram">
+          <a href="https://www.instagram.com/tiptopdecorations18?igsh=NDlxZHQ4ZjRidmFw" className="social-icon social-icon--instagram">
             <i className="fa fa-instagram" aria-hidden="true"></i>
             <div className="tooltip">Instagram </div>
             <AiFillInstagram />

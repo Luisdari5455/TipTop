@@ -68,7 +68,7 @@ const Banner = () => {
             data-scroll-speed="8"
             data-scroll-target="#up"
           >
-            We can help you{" "}
+           Tell us your dream event{" "}
           </span>
         </BannerComponent>
         <BannerComponent>
@@ -78,7 +78,7 @@ const Banner = () => {
             data-scroll-speed="-6"
             data-scroll-target="#up"
           >
-           make your vision
+           and we will make sure to 
           </span>
         </BannerComponent>
         <BannerComponent>
@@ -88,7 +88,8 @@ const Banner = () => {
             data-scroll-speed="6"
             data-scroll-target="#up"
           >
-        Come to
+            make it come true 
+        
           </span>
         </BannerComponent>
         <BannerComponent>
@@ -98,7 +99,8 @@ const Banner = () => {
             data-scroll-speed="-4"
             data-scroll-target="#up"
           >
-          Life
+            and include every single detail,
+          
           </span>
         </BannerComponent>
         <BannerComponent>
@@ -108,7 +110,7 @@ const Banner = () => {
             data-scroll-speed="6"
             data-scroll-target="#up"
           >
-            with a Little Black Dress
+           just as you imagined it
           </span>
         </BannerComponent>
       </Container>

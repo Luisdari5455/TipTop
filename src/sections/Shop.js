@@ -1,10 +1,13 @@
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import React, { useLayoutEffect } from "react";
+import React, { useLayoutEffect,useState } from "react";
 import styled from "styled-components";
 import { useRef } from "react";
-
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 import { motion } from "framer-motion";
+import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
+
 
 import img1 from "../assets/Images/services/3.jpeg";
 import img2 from "../assets/Images/services/5.jpeg";
@@ -16,6 +19,9 @@ import img7 from "../assets/Images/services/letrero.jpg";
 import img8 from "../assets/Images/services/habitaciones.jpg";
 import img9 from "../assets/Images/services/adorno.jpg";
 import img10 from "../assets/Images/services/exteri.jpg";
+import letrass from "../assets/Images/services/6.jpeg";
+import col1 from "../assets/Images/services/columnas/1.jpeg";
+import col2 from "../assets/Images/services/columnas/2.jpeg";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -134,25 +140,82 @@ const Item = styled(motion.div)`
   }
 `;
 
-const Product = ({ img, title = "" }) => {
+const Product = ({ img, title = "", open, close, openli, arrim }) => {
+console.log(arrim,"ver que le mando")
   return (
+    <>
+        <Lightbox
+        open={openli}
+        close={close}
+        slides={arrim ? arrim : ""}
+      /> 
     <Item
       initial={{ filter: "grayscale(100%)" }}
       whileInView={{ filter: "grayscale(0%)" }}
       transition={{ duration: 0.5 }}
       viewport={{ once: false, amount: "all" }}
     >
-      <img src={img} alt={title} />
+     
+      <img src={img} alt={title} onClick={open} />
+ 
       <h1>{title}</h1>
     </Item>
+    </>
   );
 };
+
 
 const Shop = () => {
   gsap.registerPlugin(ScrollTrigger);
 
   const ref = useRef(null);
   const horizontalRef = useRef(null);
+  const [open, setOpen] = useState(false);
+  const [open1, setOpen1] = useState(false);
+  const [open2, setOpen2] = useState(false);
+  const [open3, setOpen3] = useState(false);
+  const [open4, setOpen4] = useState(false);
+  const [open5, setOpen5] = useState(false);
+  const [open6, setOpen6] = useState(false);
+  const [open7, setOpen7] = useState(false);
+  const [open8, setOpen8] = useState(false);
+  const [open9, setOpen9] = useState(false);
+
+  const columnas  = [
+    { src: img2 },
+    { src: col1 },
+
+    { src: col2 },
+  ]
+  const carros= [
+    { src: img1 },
+    { src: img2 },
+    // { src: img3 },
+  ]
+  const fondos= [
+    { src: img1 },
+    // { src: img2 },
+    // { src: img3 },
+  ]
+  const manteles= [
+    { src: img1 },
+    // { src: img2 },
+    // { src: img3 },
+  ]
+  const letrasne= [
+      { src: img7 },
+      { src: letrass },
+   
+      // { src: img3 },
+ 
+  ]
+  const imgage= [
+    { src: img7 },
+    { src: letrass },
+ 
+    // { src: img3 },
+
+]
 
   useLayoutEffect(() => {
     let element = ref.current;
@@ -217,16 +280,18 @@ const Shop = () => {
         </p>
       </Left>
       <Right ref={horizontalRef}>
-        <Product img={img1} title="Candy Cart" />
-        <Product img={img2} title="Ballon columns" />
-        <Product img={img3} title="Sweatshirts" />
-        <Product img={img4} title="Ethnic Wear" />
-        <Product img={img5} title="Blazers" />
-        <Product img={img6} title="Suits" />
-        <Product img={img7} title="Antiques" />
-        <Product img={img8} title="Jewellery" />
-        <Product img={img9} title="Watches" />
-        <Product img={img10} title="Special Edition" />
+
+ 
+        <Product img={img1} title="Candy Cart" open={() => setOpen(true)} close={() => setOpen(false)} openli={open} arrim={carros}/>
+        <Product img={img2} title="Ballon columns" open={() => setOpen1(true)} close={() => setOpen1(false)} openli={open1} arrim={columnas} />
+        <Product img={img3} title="Sweatshirts" open={() => setOpen2(true)} close={() => setOpen2(false)} openli={open2} arrim={imgage}/>
+        <Product img={img4} title="Ethnic Wear" open={() => setOpen3(true)} close={() => setOpen3(false)} openli={open3} arrim={imgage}/>
+        <Product img={img5} title="Blazers" open={() => setOpen4(true)} close={() => setOpen4(false)} openli={open4} arrim={imgage}/>
+        <Product img={img6} title="Suits" open={() => setOpen5(true)} close={() => setOpen5(false)} openli={open5} arrim={imgage}/>
+        <Product img={img7} title="Antiques" open={() => setOpen6(true)} close={() => setOpen6(false)} openli={open6} arrim={letrasne}/>
+        <Product img={img8} title="Jewellery" open={() => setOpen7(true)} close={() => setOpen7(false)} openli={open7} arrim={imgage}/>
+        <Product img={img9} title="Watches" open={() => setOpen8(true)} close={() => setOpen8(false)} openli={open8} arrim={imgage}/>
+        <Product img={img10} title="Special Edition" open={() => setOpen9(true)} close={() => setOpen9(false)} openli={open9} arrim={imgage}/>
       </Right>
     </Section>
   );

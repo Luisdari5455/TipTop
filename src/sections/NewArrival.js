@@ -5,10 +5,11 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 
 
 
-import img1 from "../assets/Images/services/9.jpeg";
-import img2 from "../assets/Images/services/9.jpeg";
+import vid2 from "../assets/Images/services/vid3.mp4";
+import vid1 from "../assets/Images/services/vid1.mp4";
 import vid from "../assets/Images/services/10.mp4";
-import img4 from "../assets/Images/14.webp";
+import vid3 from "../assets/Images/services/vid2.mp4";
+import vid4 from "../assets/Images/services/vidd2.mp4";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -122,6 +123,11 @@ const Item = styled.div`
     height: auto;
     z-index: 5;
   }
+  vid {
+    width: 100%;
+    height: auto;
+    z-index: 5;
+  }
 `;
 
 const Product = ({ img, title = "" }) => {
@@ -132,6 +138,15 @@ const Product = ({ img, title = "" }) => {
     </Item>
   );
 };
+const Product1 = ({ vid, title = "" }) => {
+  return (
+    <Item>
+      <video src={vid} alt={title} type="video/mp4"autoPlay loop muted />
+      {/* <h2>{title}</h2> */}
+    </Item>
+  );
+};
+
 
 const NewArrival = () => {
   gsap.registerPlugin(ScrollTrigger);
@@ -203,13 +218,19 @@ const NewArrival = () => {
       </Title>
 
       <Container ref={ScrollingRef}>
-        <Product img={img1} title="Denim" />
-        <Product img={img2} title="Cool Dresses" />
-        {/* <video src={vid} width="640" height="480"></video> */}
-        <video src={vid} type="video/mp4" autoPlay muted loop  width="800
-        " height="480" />
+        {/* <Product img={img1} title="Denim" />
+        <Product img={img2} title="Cool Dresses" /> */}
+        <Product1 vid={vid3} title="Cool Dresses" />
+        <Product1 vid={vid} title="Cool Dresses" />
+        <Product1 vid={vid1} title="Cool Dresses" />
+        <Product1 vid={vid2} title="Cool Dresses" />
+        <Product1 vid={vid4} title="Cool Dresses" />
+       
+         
+        
+    
         {/* <Product img={img3} title="Jackets" /> */}
-        <Product img={img4} title="T-shirts" />
+        {/* <Product img={img4} title="T-shirts" /> */}
       </Container>
 
       <Text data-scroll data-scroll-speed="-4">
